@@ -22,9 +22,6 @@ max_srch = 1000
 # Login with Pro
 gis = GIS("pro", verify_cert = False)
 
-# Get Group
-group_itm = gis.groups.get(group_id)
-
 # Get Portal content and loop through
 itms = gis.content.search(query="*", max_items=max_srch)
 

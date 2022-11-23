@@ -11,7 +11,7 @@ from arcgis.gis import GIS
 # PARAMS
 
 # Portal ID of Group to which items should be added
-group_id = "1f8060c34d5940419e3a33235c2eb752"
+group_id = # <item ID of Group>
 
 # Max items to look through in Portal to attempt adding to Group
 max_srch = 250
